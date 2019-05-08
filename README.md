@@ -8,13 +8,17 @@ Polymer allows to build custom elements easier.
 
 > Polymer is not a framework. It’s a thin sugar layer to use the web-components.
 
+> The Polymer library is a lightweight sugaring layer on top of the [Web Components APIs](http://webcomponents.org/articles/why-web-components/).
+
+> Polymer is a base class to easily create Web Components.
+
 Features:
 
 - ES6 modules
 - Web component polyfills updated
-- [Polymer Elements](https://www.webcomponents.org/author/PolymerElements) and the core library converted to ES Modules
+- [Polymer Elements](https://www.webcomponents.org/author/PolymerElements) and the core library converted to ES Modules.
 
-// brief description
+`PolymerElement` is the base class that provides the core API for Polymer's meta-programming features including template stamping, data-binding, attribute deserialization, and property change observation.
 
 ## Requirements
 
@@ -232,6 +236,7 @@ class PolymerRowBlock extends PolymerElement { ... }
 - [Polymer, TypeScript and WebPack][polymer-typescript-webpack]
 - [Custom Elements Everywhere][custom-elements-everywhere]
 - [Polymer bunlder][polymer-bunlder]
+- [Browser module support][browser-module-support]
 
 [polymer-cli]: https://polymer-library.polymer-project.org/3.0/docs/tools/polymer-cli
 [polymer-cli-commands]: https://polymer-library.polymer-project.org/3.0/docs/tools/polymer-cli-commands
@@ -240,3 +245,4 @@ class PolymerRowBlock extends PolymerElement { ... }
 [polymer-typescript-webpack]: https://medium.com/@jecelynyeen/polymer-3-0-preview-building-a-mini-card-game-ce8948265fd6
 [custom-elements-everywhere]: https://custom-elements-everywhere.com/
 [polymer-bunlder]: https://github.com/Polymer/tools/tree/master/packages/bundler
+[browser-module-support]: https://caniuse.com/#search=modules
